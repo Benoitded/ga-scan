@@ -1,11 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
+import Sumup from './components/Sumup';
+import Menu from './components/Menu';
+import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+    <Header />
+    <Sumup />
+    <Menu />
+    <Portfolio />
+    <Footer />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

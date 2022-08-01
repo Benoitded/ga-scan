@@ -1,0 +1,44 @@
+.portfolio-main-div {
+    border-radius: 10px;
+    border: 2px dashed #86baff;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 940px;
+    padding: 30px;
+}
+
+.title-portfolio-div {
+    display: flex;
+    align-items: flex-start;
+    font-size: larger;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.logo-item {
+    width: 40px;
+}
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(32, 32, 32);
+}
+
+.header {
+    background-color: rgb(55, 55, 55);
+}
+
+.portfolio-item-element {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-basis: 25%;
+}
+
+.portfolio-item-element.assets {
+    justify-content: flex-start;
+}

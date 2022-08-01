@@ -42,3 +42,14 @@ body {
     color: #e4e7eb;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+section>section {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}

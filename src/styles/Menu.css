@@ -1,0 +1,22 @@
+.menu-main-div {
+    display: flex;
+    width: 1000px;
+    align-items: flex-start;
+}
+
+.choice-div {
+    margin: 0px 20px;
+    font-size: larger;
+    padding: 5px;
+    border-bottom: 5px solid #00000000;
+    cursor: pointer;
+}
+
+.choice-div:hover {
+    border-bottom: 5px solid #86baff;
+}
+
+.actif {
+    color: #86baff;
+    border-bottom: 5px solid #86baff;
+}
