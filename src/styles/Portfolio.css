@@ -16,7 +16,8 @@
 }
 
 .logo-item {
-    width: 40px;
+    width: 30px;
+    margin-right: 5px;
 }
 
 .portfolio-item {
@@ -26,6 +27,7 @@
     padding: 10px;
     border-radius: 10px;
     background-color: rgb(32, 32, 32);
+    margin-bottom: 1px;
 }
 
 .header {
